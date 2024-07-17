@@ -1,5 +1,5 @@
 let menuIcon = document.querySelector('#menu-icon');
-let navBar = document.querySelector('.navbar');
+let navbar = document.querySelector('.navbar');
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -19,7 +19,8 @@ window.onscroll = () => {
     })
 }
 
-menuIcon.onClick = () => {
+menuIcon.addEventListener("click", () => {
+    console.log('Cklickedme');
     menuIcon.classList.toggle('bx-x');
-    navBar.classList.toggle('active');
-}
+    navbar.classList.toggle('active');
+});

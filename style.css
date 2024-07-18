@@ -388,6 +388,13 @@ span {
     line-height: 22px;
 }
 
+.timeline-content li {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
 ::-webkit-scrollbar {
     width: 15px;
 }
